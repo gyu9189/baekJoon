@@ -12,7 +12,7 @@ public class BaekJoon10809 {
 
 		long start = System.currentTimeMillis();
 		for(int i = 0; i < str.length(); i++) {
-			int temp = 0;					
+			int temp = 0;
 			for(int j = 0; j < S.length(); j++) {
 				
 				if(str.charAt(i) == S.charAt(j)) {

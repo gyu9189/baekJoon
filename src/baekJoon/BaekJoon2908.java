@@ -9,6 +9,6 @@ public class BaekJoon2908 {
         int sum = 5;
 
         float avg = (float) (sum / 24.0); // double
-
+        // 이런문제는 왜 내는거임
     } // main
 }

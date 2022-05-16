@@ -1,14 +1,19 @@
 package baekJoon;
 
+import java.util.Scanner;
+
 public class BaekJoon2908 {
     public static void main(String[] args) {
-        int i; // 변수선언
-        i = 1; // = 은 대입 1 초기화
-        int j = 1; // 변수 선언 및 초기화
+        Scanner scanner = new Scanner(System.in);
 
-        int sum = 5;
+        int num = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
-        float avg = (float) (sum / 24.0); // double
-        // 이런문제는 왜 내는거임
+        scanner.close();
+
+        num = Integer.parseInt(new StringBuilder().append(num).reverse().toString());
+        num2 = Integer.parseInt(new StringBuilder().append(num2).reverse().toString());
+
+        System.out.println(num > num2 ? num : num2);
     } // main
 }

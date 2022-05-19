@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BaekJoon1316 {
-    
+
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
@@ -44,7 +44,6 @@ public class BaekJoon1316 {
                     return false;	//함수 종료
                 }
             }
-
 
             // 앞선 문자와 i 번째 문자가 같다면? (연속된 문자)
             // else 문은 없어도 됨

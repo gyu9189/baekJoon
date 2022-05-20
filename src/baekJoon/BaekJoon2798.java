@@ -15,7 +15,7 @@ public class BaekJoon2798 {
 
         for (int i = 0; i < N; i++) {
             arr[i] = scanner.nextInt(); // 카드 수 정하기
-        }
+        } // for
 
         int result = search(arr, N, M);
         System.out.println(result);

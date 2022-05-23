@@ -8,6 +8,6 @@ public class BaekJoonGood {
         Scanner scanner = new Scanner(System.in);
         String id = scanner.next();
 
-        System.out.println(id+"??!");
+        System.out.println(id+"??!!");
     }
 }

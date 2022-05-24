@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BaekJoon1157two {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException { // IOException
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int[] arr = new int[26];

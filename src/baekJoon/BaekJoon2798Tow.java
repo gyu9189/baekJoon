@@ -13,6 +13,7 @@ public class BaekJoon2798Tow {
         for (int i = 0; i < N; i++) {
             arr[i] = scanner.nextInt();
         } // for
+
         int result = calculation(N, M, arr);
         System.out.println(result);
     } // main

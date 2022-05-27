@@ -107,5 +107,5 @@ public class Gawibawiibo {
             } // else
         } // if
         return result;
-    } // result
+    } // battle
 }

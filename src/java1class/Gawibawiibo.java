@@ -95,6 +95,7 @@ public class Gawibawiibo {
         scanner.close();
     } // main
 
+
     static String battle(int user, int computer) {
         String result = null;
         if(user > 0 && user <= 3) {

@@ -7,7 +7,7 @@ public class BaekJoon2798Tow {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int N = scanner.nextInt(); // 몇장의 카드를 합산제시할건지
+        int N = scanner.nextInt(); // 몇장의 카드를 합산제시할건지 !!
         int M = scanner.nextInt(); // 카드의 합 최대
         int []arr = new int[N];
         for (int i = 0; i < N; i++) {

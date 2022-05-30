@@ -14,7 +14,7 @@ public class BaekJoon7568 {
 
         int [][]arr = new int[N][2]; // 2차원배열의 첫번째 배열은 인원수대로 초기화 / 두번째배열은 키, 몸무게를 담을것이므로 2로 초기화
 
-        String[] str; // bufferReader로 입력받을 키와 몸무게를 담을 str 배열 선언
+        String[] str; // bufferReader로 입력받을 키와 몸무게를 담을 str 배열 선언 !! 
 
         for(int i = 0; i < N; i++) {
             str = bufferedReader.readLine().split(" "); // 문자열 분리

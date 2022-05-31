@@ -12,43 +12,36 @@ package java1class;
 //    만약 Y 를 입력하면 게임은 반복 됩니다.
 //    아래는 위 게임을 구성하기위한 필수 API 입니다.
 
+import util.ScannerUtil;
 import java.util.Scanner;
 
 public class Gawibawiibo {
 
     public static void main(String[] args) {
+        ScannerUtil scannerUtil = new ScannerUtil();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("======[GAME START]======");
 
         int userChoice, randomNum;
-        int errorCount = 0, gameCount = 1;
+        int gameCount = 1;
         int win = 0, draw = 0, lose = 0;
         double odds;
-        String user, computer;
+        String user = "", computer = "";
 
         while(true) {
             randomNum = (int)(Math.random()*3)+1;
-            if(errorCount == 5) {
-                System.out.println("error!! 프로그램을 종료합니다.");
-                return;
-            } // if
 
-            System.out.println("가위, 바위 보 중 번호로 선택하세요.");
-            System.out.println("1. 가위 2. 바위 3. 보");
-            System.out.println(">");
-            userChoice = scanner.nextInt();
+            String message = "가위, 바위 보 중 번호로 선택하세요. \n 1. 가위 2. 바위 3. 보";
+            userChoice = scannerUtil.nextInt(scanner, message, 1, 3);
+
             if(userChoice == 1) {
                 user = "가위";
             } else if(userChoice == 2) {
                 user = "바위";
             } else if(userChoice == 3) {
                 user = "보";
-            } else {
-                System.out.println("1 ~ 3 안에서 선택해주세요.");
-                errorCount++;
-                continue;
-            } // else
+            }
 
             if(randomNum == 1) {
                 computer = "가위";
@@ -60,7 +53,6 @@ public class Gawibawiibo {
                 System.out.println("system error");
                 continue;
             } // else
-            errorCount = 0;
 
             String result = battle(userChoice, randomNum);
 
@@ -77,10 +69,9 @@ public class Gawibawiibo {
             System.out.println("==== [결과 : "+ result + "] ====");
             System.out.println("user : " + user + " computer : " + computer);
 
-            System.out.println("게임을 계속 하시겠습니까 ? [ Y / N ]");
-            System.out.println(">");
 
-            String yseNo = scanner.next();
+            message = "게임을 계속 하시겠습니까 ? [ Y / N ]";
+            String yseNo = scannerUtil.nextLine(scanner, message);
 
             if(yseNo.equalsIgnoreCase("Y")) {
                 gameCount++;

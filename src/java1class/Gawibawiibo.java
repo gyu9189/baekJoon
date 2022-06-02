@@ -87,7 +87,7 @@ public class Gawibawiibo {
     } // main
 
 
-    static String battle(int user, int computer) {
+    static String battle(int user, int computer) { // 숭부다이~
         String result = null;
         if(user > 0 && user <= 3) {
             if((user == 1 && computer == 3) || (user == 2 && computer == 1) || (user == 3 && computer == 2)) {

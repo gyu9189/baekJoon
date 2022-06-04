@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BaekJoon2798Tow {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // asd
         Scanner scanner = new Scanner(System.in);
 
         int N = scanner.nextInt(); // !!

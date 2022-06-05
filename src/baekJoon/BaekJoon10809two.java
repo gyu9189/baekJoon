@@ -10,7 +10,7 @@ public class BaekJoon10809two {
 
 		int[] arr = new int[26]; // 알파벳 수대로 배열크기 초기화
 
-		long start = System.currentTimeMillis();
+		long start = System.currentTimeMillis(); // 초세기 start
 		for(int i = 0; i < arr.length; i++) {
 			arr[i] = -1; // 기본적으로 -1로 전부 초기화
 		} // for 

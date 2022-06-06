@@ -10,7 +10,7 @@ public class BaekJoon10809 {
 		scanner.close();
 		String str = "abcdefghijklnmopqrstuvwxyz";
 
-		long start = System.currentTimeMillis(); // 초세기 start
+		long start = System.currentTimeMillis(); // 초세기 start !!
 		for(int i = 0; i < str.length(); i++) {
 			int temp = 0;
 			for(int j = 0; j < S.length(); j++) {

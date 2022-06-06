@@ -2,7 +2,7 @@ package baekJoon;
 
 import java.util.Scanner;
 
-public class BaekJoon10809two {
+public class BaekJoon10809two { // velog 기재 완료
 	
 	public static void main(String[] args) {
 		

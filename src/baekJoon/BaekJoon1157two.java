@@ -32,5 +32,5 @@ public class BaekJoon1157two {
         } // for
 
         System.out.println(ch);
-    }
+    } // main
 }

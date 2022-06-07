@@ -45,19 +45,5 @@ public class BaekJoon1157 {
                } // if
            } // j for
        } // for
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+    } // main
 }

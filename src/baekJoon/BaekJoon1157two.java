@@ -26,7 +26,7 @@ public class BaekJoon1157two {
             if(arr[i] > max) {
                 max = arr[i];
                 ch = (char) (i + 'A'); // 대문자 출력을 위해 + 65
-            } else if(arr[i] == max) {
+            } else if(arr[i] == max) { // i번째가 max 와 같다면
                 ch = '?';
             } // else if
         } // for

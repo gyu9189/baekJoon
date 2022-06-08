@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BaekJoon1157two {
+public class BaekJoon1157two { // velog
     public static void main(String[] args) throws IOException { // IOException //
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

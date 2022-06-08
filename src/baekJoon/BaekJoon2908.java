@@ -3,7 +3,7 @@ package baekJoon;
 import java.util.Scanner;
 
 public class BaekJoon2908 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // 2908
         Scanner scanner = new Scanner(System.in);
 
         int num = scanner.nextInt();

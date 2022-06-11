@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
-public class Gawibawibo { // pp
+public class Gawibawibo { // ppppp
 
 	// ����� ��ü Ÿ�� �ʵ� ����.
 	static private Checker checker;

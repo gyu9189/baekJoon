@@ -11,7 +11,7 @@ public class Gawibawibo { //
 	static private Gamer gamer;
 	static private PlayerInfo user;
 
-	static private String input; // ������� �Է°� ����. ��Ȳ�� ���� ��� ����ؾ� �ϱ� ������ �ʵ�� ����.
+	static private String input;
 	public static String strValues[] = { "����", "����", "��" };
 	private static int com;
 
